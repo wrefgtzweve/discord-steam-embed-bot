@@ -1,0 +1,2 @@
+discord_py_interactions
+python-dotenv
