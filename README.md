@@ -14,8 +14,21 @@ Ported from the `onmessage` module of lamarr-discord.
 ## Setup
 
 ```bash
+cp .env.example .env  # then put your bot token in DISCORD_TOKEN
+```
+
+### Docker (VPS)
+
+```bash
+docker compose up -d --build
+```
+
+Logs: `docker compose logs -f`
+
+### Locally
+
+```bash
 pip install -r requirements.txt
-copy .env.example .env  # then put your bot token in DISCORD_TOKEN
 python main.py
 ```
 

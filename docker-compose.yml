@@ -1,0 +1,6 @@
+services:
+  steamembed:
+    build: .
+    container_name: steamembed
+    restart: unless-stopped
+    env_file: .env
